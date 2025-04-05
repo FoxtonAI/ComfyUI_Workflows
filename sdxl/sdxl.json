@@ -434,7 +434,7 @@
             "type": "Note",
             "pos": [
                 -1819.1583251953125,
-                -310.61322021484375
+                -312.5619201660156
             ],
             "size": [
                 650.0359497070312,
@@ -448,7 +448,7 @@
             "title": "FoxtonAI Says",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic workflow to generate images using SDXL model checkpoints.\n\n\nWORKFLOW NAME\n\nsdxl.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/sdxl\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload sd_xl_base_1.0 SDXL checkpoint, save in ComfyUI\\models\\checkpoints:\nhttps://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors"
+                "DESCRIPTION\n\nBasic workflow to generate images using SDXL model checkpoints.\n\n\nWORKFLOW NAME\n\nsdxl.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/sdxl/sdxl.json\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload sd_xl_base_1.0 SDXL checkpoint, save in ComfyUI\\models\\checkpoints:\nhttps://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -642,8 +642,8 @@
         "ds": {
             "scale": 0.5131581182307067,
             "offset": [
-                1961.0606945292159,
-                779.88772172961
+                1951.247725381535,
+                780.4186756280193
             ]
         },
         "node_versions": {
