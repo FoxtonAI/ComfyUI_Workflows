@@ -344,7 +344,7 @@
             "type": "Note",
             "pos": [
                 -1432.6324462890625,
-                -191.4638671875
+                -189.85336303710938
             ],
             "size": [
                 687.1525268554688,
@@ -358,7 +358,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic workflow to generate images using Stable Diffusion 1.5 model checkpoints.\n\n\nWORKFLOW NAME\n\nsd_1.5.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/sd\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload SD 1.5 checkpoint (save in: ComfyUI\\models\\checkpoints):\nhttps://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.safetensors"
+                "DESCRIPTION\n\nBasic workflow to generate images using Stable Diffusion 1.5 model checkpoints.\n\n\nWORKFLOW NAME\n\nsd_1.5.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/sd/sd_1.5.json\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload SD 1.5 checkpoint (save in: ComfyUI\\models\\checkpoints):\nhttps://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.safetensors"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -521,10 +521,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591553,
+            "scale": 0.6209213230591552,
             "offset": [
-                1467.1155950861182,
-                578.8041975871115
+                1463.4007346958192,
+                595.4836217171514
             ]
         },
         "node_versions": {
