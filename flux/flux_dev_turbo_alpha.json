@@ -723,12 +723,12 @@
             "id": 16,
             "type": "Note",
             "pos": [
-                -1264.1019287109375,
+                -1360.927978515625,
                 150.38919067382812
             ],
             "size": [
-                466.2602844238281,
-                517.4984741210938
+                561.8184204101562,
+                514.1258544921875
             ],
             "flags": {},
             "order": 7,
@@ -740,7 +740,7 @@
                 "text": ""
             },
             "widgets_values": [
-                "DESCRIPTION\n\nThis workflow simply adds the Flux Turbo Alpha LoRA to my \"flux_dev.json\" basic Flux Dev workflow, intended for use with all Flux Dev model only checkpoints, specifying VAE and text encoders separately.\n\nNote that I renamed the original Flux Turbo Alpha LoRA from \"diffusion_pytorch_model.safetensors\" to a more appropriate and recognisable name of \"flux-turbo-alpha.safetensors\".\n\n\nWORKFLOW NAME\n\nflux_dev_turbo_alpha.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/flux\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/XMsFiUqDFxk\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload FP8 model-only checkpoint (save in: ComfyUI\\models\\unet):\nhttps://huggingface.co/Kijai/flux-fp8/tree/main\n\nDownload CLIP text encoder (save in: ComfyUI\\models\\clip):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/tree/main\n\nDownload FP8 T5 text encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/tree/main\n\nDownload VAE (ae.safetensors) (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main\n\nDownload Flux Turbo Alpha LoRA (save in: ComfyUI\\models\\loras):\nhttps://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/tree/main"
+                "DESCRIPTION\n\nThis workflow simply adds the Flux Turbo Alpha LoRA to my \"flux_dev.json\" basic Flux Dev workflow, intended for use with all Flux Dev model only checkpoints, specifying VAE and text encoders separately.\n\nNote that I renamed the original Flux Turbo Alpha LoRA from \"diffusion_pytorch_model.safetensors\" to a more appropriate and recognisable name of \"flux-turbo-alpha.safetensors\".\n\n\nWORKFLOW NAME\n\nflux_dev_turbo_alpha.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/flux/flux_dev_turbo_alpha.json\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/XMsFiUqDFxk\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload FP8 model-only checkpoint (save in: ComfyUI\\models\\unet):\nhttps://huggingface.co/Kijai/flux-fp8/tree/main\n\nDownload CLIP text encoder (save in: ComfyUI\\models\\clip):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/tree/main\n\nDownload FP8 T5 text encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/tree/main\n\nDownload VAE (ae.safetensors) (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main\n\nDownload Flux Turbo Alpha LoRA (save in: ComfyUI\\models\\loras):\nhttps://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/tree/main"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -959,10 +959,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5021057810142795,
+            "scale": 0.45645980092207267,
             "offset": [
-                1292.187025720426,
-                313.9353640048079
+                1557.3457354173074,
+                365.55154131243034
             ]
         },
         "groupNodes": {

@@ -394,12 +394,12 @@
             "id": 37,
             "type": "Note",
             "pos": [
-                -2101.95458984375,
-                -990.534423828125
+                -2119.71337890625,
+                -992.3640747070312
             ],
             "size": [
-                513.2645874023438,
-                264.8451232910156
+                532.3889770507812,
+                267.5771789550781
             ],
             "flags": {},
             "order": 2,
@@ -409,7 +409,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic workflow to generate images using ONLY the Flux Dev FP8 AIO checkpoint.\n\n\nWORKFLOW NAME\n\nflux_dev_fp8_aio.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/flux\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload Flux FP8 AIO checkpoint (save in: ComfyUI\\models\\checkpoints):\nhttps://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors"
+                "DESCRIPTION\n\nBasic workflow to generate images using ONLY the Flux Dev FP8 AIO checkpoint.\n\n\nWORKFLOW NAME\n\nflux_dev_fp8_aio.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/flux/flux_dev_fp8_aio.json\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload Flux FP8 AIO checkpoint (save in: ComfyUI\\models\\checkpoints):\nhttps://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -582,8 +582,8 @@
         "ds": {
             "scale": 0.5131581182307067,
             "offset": [
-                2222.421374738032,
-                1440.9992337843266
+                2230.2624417155553,
+                1460.574664156958
             ]
         },
         "node_versions": {

@@ -677,8 +677,8 @@
             "id": 16,
             "type": "Note",
             "pos": [
-                -2115.0810546875,
-                -426.82635498046875
+                -2117.43896484375,
+                -422.1104736328125
             ],
             "size": [
                 612.7128295898438,
@@ -694,7 +694,7 @@
                 "text": ""
             },
             "widgets_values": [
-                "DESCRIPTION\n\nBasic workflow to generate images using all Flux Dev model only checkpoints, specifying VAE and text encoders separately.\n\n\nWORKFLOW NAME\n\nflux_dev.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/flux\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload FP8 model-only checkpoint (save in: ComfyUI\\models\\unet):\nhttps://huggingface.co/Kijai/flux-fp8/blob/main/flux1-dev-fp8-e4m3fn.safetensors\n\nDownload CLIP text encoder (save in: ComfyUI\\models\\clip):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors\n\nDownload FP8 T5 text encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors\n\nDownload VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/ae.safetensors"
+                "DESCRIPTION\n\nBasic workflow to generate images using all Flux Dev model only checkpoints, specifying VAE and text encoders separately.\n\n\nWORKFLOW NAME\n\nflux_dev.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/flux/flux_dev.json\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload FP8 model-only checkpoint (save in: ComfyUI\\models\\unet):\nhttps://huggingface.co/Kijai/flux-fp8/blob/main/flux1-dev-fp8-e4m3fn.safetensors\n\nDownload CLIP text encoder (save in: ComfyUI\\models\\clip):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors\n\nDownload FP8 T5 text encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors\n\nDownload VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/ae.safetensors"
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -918,10 +918,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.4240976183724849,
+            "scale": 0.42409761837248483,
             "offset": [
-                2280.3550047032486,
-                1002.1791901374307
+                2321.7475579127795,
+                1004.8282428012329
             ]
         },
         "groupNodes": {
