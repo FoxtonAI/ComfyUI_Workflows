@@ -653,7 +653,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic Wan 2.1 Image-to-Video ComfyUI Native workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v-native.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/wan\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/pqXkNC-FsTA\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload model \"wan2.1_i2v_480p_14B_fp8_scaled.safetensors\" (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models\n\nDownload text encoder \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\" (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload VAE \"wan_2.1_vae.safetensors\" (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload clip vision image encoder \"clip_vision_h.safetensors\" (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager."
+                "DESCRIPTION\n\nBasic Wan 2.1 Image-to-Video ComfyUI Native workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v_native.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/wan/wan_2.1_i2v_native.json\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/pqXkNC-FsTA\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload model \"wan2.1_i2v_480p_14B_fp8_scaled.safetensors\" (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models\n\nDownload text encoder \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\" (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload VAE \"wan_2.1_vae.safetensors\" (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload clip vision image encoder \"clip_vision_h.safetensors\" (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager."
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -885,10 +885,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.4736244074476949,
+            "scale": 0.4736244074476954,
             "offset": [
-                2383.5727698815776,
-                278.90804680277733
+                2403.860786991937,
+                309.82368679723095
             ]
         },
         "node_versions": {

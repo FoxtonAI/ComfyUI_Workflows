@@ -374,7 +374,7 @@
             ],
             "size": [
                 245.09596252441406,
-                334
+                738.1663208007812
             ],
             "flags": {},
             "order": 9,
@@ -454,7 +454,7 @@
             "type": "Note",
             "pos": [
                 -1523.380615234375,
-                358.0845947265625
+                360.0040283203125
             ],
             "size": [
                 669.7808227539062,
@@ -468,7 +468,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic Wan 2.1 Text-to-Video ComfyUI Native workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_t2v_native.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/wan\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/NGc2-uPBdg8\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload model \"wan2.1_t2v_1.3B_bf16.safetensors\" (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models\n\nDownload text encoder \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\" (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload VAE \"wan_2.1_vae.safetensors\" (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI manager."
+                "DESCRIPTION\n\nBasic Wan 2.1 Text-to-Video ComfyUI Native workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_t2v_native.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/wan/wan_2.1_t2v_native.json\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/NGc2-uPBdg8\n\n\nDEFAULT WORKFLOW DEPENDENCIES\n\nDownload model \"wan2.1_t2v_1.3B_bf16.safetensors\" (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/diffusion_models\n\nDownload text encoder \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\" (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload VAE \"wan_2.1_vae.safetensors\" (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI manager."
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -631,10 +631,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5730855330117126,
+            "scale": 0.5209868481924662,
             "offset": [
-                1585.1338743792314,
-                50.57753115617576
+                1744.1531832457085,
+                113.9525150305597
             ]
         },
         "node_versions": {

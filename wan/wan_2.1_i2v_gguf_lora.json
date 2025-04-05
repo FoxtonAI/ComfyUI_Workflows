@@ -520,7 +520,8 @@
             },
             "widgets_values": [
                 "pasted/image.png",
-                "image"
+                "image",
+                ""
             ],
             "color": "#2a363b",
             "bgcolor": "#3f5159"
@@ -682,7 +683,7 @@
             "type": "Note",
             "pos": [
                 -2165.9072265625,
-                207.799072265625
+                205.6876983642578
             ],
             "size": [
                 620.3511962890625,
@@ -696,7 +697,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nWan 2.1 Image-to-Video GGUF + LoRA Workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v_gguf_lora.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/wan\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/efJTJxiGAvE\n\n\nWORKFLOW DEPENDENCIES\n\nDownload Wan 2.1 GGUF 480p/720p Image-to-Video Model (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main\n\nDownload Wan 2.1 Text Encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload Wan 2.1 VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload Wan 2.1 Clip Vision Image Encoder (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nDownload LoRA (save in: ComfyUI\\models\\loras).\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager.\n\nInstall \"ComfyUI-GGUF\" custom node via ComfyUI Manager."
+                "DESCRIPTION\n\nWan 2.1 Image-to-Video GGUF + LoRA Workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v_gguf_lora.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/wan/wan_2.1_i2v_gguf_lora.json\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/efJTJxiGAvE\n\n\nWORKFLOW DEPENDENCIES\n\nDownload Wan 2.1 GGUF 480p/720p Image-to-Video Model (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main\n\nDownload Wan 2.1 Text Encoder (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload Wan 2.1 VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload Wan 2.1 Clip Vision Image Encoder (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nDownload LoRA (save in: ComfyUI\\models\\loras).\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager.\n\nInstall \"ComfyUI-GGUF\" custom node via ComfyUI Manager."
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -936,10 +937,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.47362440744769696,
+            "scale": 0.4736244074476971,
             "offset": [
-                2374.144971758167,
-                290.23038420703915
+                2370.526687075171,
+                301.12626596653996
             ]
         },
         "node_versions": {

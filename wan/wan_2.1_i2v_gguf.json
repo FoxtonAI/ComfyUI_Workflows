@@ -558,7 +558,7 @@
             ],
             "size": [
                 239.1796112060547,
-                385.0617370605469
+                334
             ],
             "flags": {},
             "order": 12,
@@ -637,8 +637,8 @@
             "id": 55,
             "type": "Note",
             "pos": [
-                -2262.177490234375,
-                216.16749572753906
+                -2264.288818359375,
+                211.9447479248047
             ],
             "size": [
                 621.6240234375,
@@ -652,7 +652,7 @@
             "title": "FoxtonAI Notes",
             "properties": {},
             "widgets_values": [
-                "DESCRIPTION\n\nBasic Wan 2.1 Image-to-Video GGUF workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v-gguf.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/tree/main/wan\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/-JE1tt_guGE\n\n\nWORKFLOW DEPENDENCIES\n\nDownload Wan 2.1 GGUF 480p/720p Image-to-Video Models (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main\n\nDownload Wan 2.1 Text Encoders (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload Wan 2.1 VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload Wan 2.1 Clip Vision Image Encoder (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager.\n\nInstall \"ComfyUI-GGUF\" custom node via ComfyUI Manager."
+                "DESCRIPTION\n\nBasic Wan 2.1 Image-to-Video GGUF workflow.\n\n\nWORKFLOW NAME\n\nwan_2.1_i2v-gguf.json\n\n\nDOWNLOAD WORKFLOW\n\nhttps://github.com/FoxtonAI/ComfyUI_Workflows/blob/main/wan/wan_2.1_i2v_gguf.json\n\n\nWORKFLOW TUTORIAL\n\nhttps://youtu.be/-JE1tt_guGE\n\n\nWORKFLOW DEPENDENCIES\n\nDownload Wan 2.1 GGUF 480p/720p Image-to-Video Models (save in: ComfyUI\\models\\diffusion_models):\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main\nhttps://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main\n\nDownload Wan 2.1 Text Encoders (save in: ComfyUI\\models\\text_encoders):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/text_encoders\n\nDownload Wan 2.1 VAE (save in: ComfyUI\\models\\vae):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/vae\n\nDownload Wan 2.1 Clip Vision Image Encoder (save in: ComfyUI\\models\\clip_vision):\nhttps://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision\n\nInstall \"ComfyUI-VideoHelperSuite\" custom node via ComfyUI Manager.\n\nInstall \"ComfyUI-GGUF\" custom node via ComfyUI Manager."
             ],
             "color": "#432",
             "bgcolor": "#653"
@@ -884,10 +884,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.4736244074476965,
+            "scale": 0.47362440744769674,
             "offset": [
-                2446.005965516863,
-                309.2089089429326
+                2451.762050202583,
+                285.1498631579471
             ]
         },
         "node_versions": {
