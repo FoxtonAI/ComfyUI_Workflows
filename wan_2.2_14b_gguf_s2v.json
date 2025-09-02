@@ -1,0 +1,1335 @@
+{
+    "id": "f53fe383-e6d8-4c21-9291-e0e6da1ecee9",
+    "revision": 0,
+    "last_node_id": 73,
+    "last_link_id": 148,
+    "nodes": [
+        {
+            "id": 7,
+            "type": "CLIPTextEncode",
+            "pos": [
+                -1800,
+                450
+            ],
+            "size": [
+                425.27801513671875,
+                180.6060791015625
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "clip",
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 148
+                },
+                {
+                    "localized_name": "text",
+                    "name": "text",
+                    "type": "STRING",
+                    "widget": {
+                        "name": "text"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "CONDITIONING",
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "slot_index": 0,
+                    "links": [
+                        113
+                    ]
+                }
+            ],
+            "title": "CLIP Text Encode (Negative Prompt)",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "CLIPTextEncode",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 70,
+            "type": "VHS_VideoCombine",
+            "pos": [
+                -550,
+                200
+            ],
+            "size": [
+                390,
+                334
+            ],
+            "flags": {},
+            "order": 14,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "images",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 144
+                },
+                {
+                    "localized_name": "audio",
+                    "name": "audio",
+                    "shape": 7,
+                    "type": "AUDIO",
+                    "link": 145
+                },
+                {
+                    "localized_name": "meta_batch",
+                    "name": "meta_batch",
+                    "shape": 7,
+                    "type": "VHS_BatchManager",
+                    "link": null
+                },
+                {
+                    "localized_name": "vae",
+                    "name": "vae",
+                    "shape": 7,
+                    "type": "VAE",
+                    "link": null
+                },
+                {
+                    "localized_name": "frame_rate",
+                    "name": "frame_rate",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "frame_rate"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "loop_count",
+                    "name": "loop_count",
+                    "type": "INT",
+                    "widget": {
+                        "name": "loop_count"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "filename_prefix",
+                    "name": "filename_prefix",
+                    "type": "STRING",
+                    "widget": {
+                        "name": "filename_prefix"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "format",
+                    "name": "format",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "format"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "pingpong",
+                    "name": "pingpong",
+                    "type": "BOOLEAN",
+                    "widget": {
+                        "name": "pingpong"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "save_output",
+                    "name": "save_output",
+                    "type": "BOOLEAN",
+                    "widget": {
+                        "name": "save_output"
+                    },
+                    "link": null
+                },
+                {
+                    "name": "pix_fmt",
+                    "type": [
+                        "yuv420p",
+                        "yuv420p10le"
+                    ],
+                    "widget": {
+                        "name": "pix_fmt"
+                    },
+                    "link": null
+                },
+                {
+                    "name": "crf",
+                    "type": "INT",
+                    "widget": {
+                        "name": "crf"
+                    },
+                    "link": null
+                },
+                {
+                    "name": "save_metadata",
+                    "type": "BOOLEAN",
+                    "widget": {
+                        "name": "save_metadata"
+                    },
+                    "link": null
+                },
+                {
+                    "name": "trim_to_audio",
+                    "type": "BOOLEAN",
+                    "widget": {
+                        "name": "trim_to_audio"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "Filenames",
+                    "name": "Filenames",
+                    "type": "VHS_FILENAMES",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfyui-videohelpersuite",
+                "ver": "1.7.4",
+                "Node name for S&R": "VHS_VideoCombine"
+            },
+            "widgets_values": {
+                "frame_rate": 16,
+                "loop_count": 0,
+                "filename_prefix": "wan_2.2_14b_gguf_s2v",
+                "format": "video/h264-mp4",
+                "pix_fmt": "yuv420p",
+                "crf": 19,
+                "save_metadata": true,
+                "trim_to_audio": false,
+                "pingpong": false,
+                "save_output": true,
+                "videopreview": {
+                    "hidden": false,
+                    "paused": false,
+                    "params": {}
+                }
+            },
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 61,
+            "type": "UnetLoaderGGUF",
+            "pos": [
+                -2740,
+                200
+            ],
+            "size": [
+                377.8797912597656,
+                61.57596206665039
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "unet_name",
+                    "name": "unet_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "unet_name"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "MODEL",
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": [
+                        128
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "ComfyUI-GGUF",
+                "ver": "d247022e3fa66851c5084cc251b076aab816423d",
+                "Node name for S&R": "UnetLoaderGGUF",
+                "aux_id": "city96/ComfyUI-GGUF",
+                "ue_properties": {
+                    "widget_ue_connectable": {
+                        "unet_name": true
+                    },
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "Wan2.2-S2V-14B-Q4_0.gguf"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 63,
+            "type": "VAELoader",
+            "pos": [
+                -2740,
+                530
+            ],
+            "size": [
+                375.90985107421875,
+                59.212032318115234
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "vae_name",
+                    "name": "vae_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "vae_name"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "VAE",
+                    "name": "VAE",
+                    "type": "VAE",
+                    "slot_index": 0,
+                    "links": [
+                        142,
+                        143
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "VAELoader",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "wan_2.1_vae.safetensors"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 57,
+            "type": "AudioEncoderLoader",
+            "pos": [
+                -2740,
+                670
+            ],
+            "size": [
+                380,
+                58
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "audio_encoder_name",
+                    "name": "audio_encoder_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "audio_encoder_name"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "AUDIO_ENCODER",
+                    "name": "AUDIO_ENCODER",
+                    "type": "AUDIO_ENCODER",
+                    "links": [
+                        120
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "AudioEncoderLoader",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "wav2vec2_large_english_fp16.safetensors"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 56,
+            "type": "AudioEncoderEncode",
+            "pos": [
+                -1270,
+                210
+            ],
+            "size": [
+                285.087890625,
+                46
+            ],
+            "flags": {
+                "collapsed": false
+            },
+            "order": 8,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "audio_encoder",
+                    "name": "audio_encoder",
+                    "type": "AUDIO_ENCODER",
+                    "link": 120
+                },
+                {
+                    "localized_name": "audio",
+                    "name": "audio",
+                    "type": "AUDIO",
+                    "link": 121
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "AUDIO_ENCODER_OUTPUT",
+                    "name": "AUDIO_ENCODER_OUTPUT",
+                    "type": "AUDIO_ENCODER_OUTPUT",
+                    "links": [
+                        119
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "AudioEncoderEncode",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 3,
+            "type": "KSampler",
+            "pos": [
+                -940,
+                350
+            ],
+            "size": [
+                280,
+                270
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "model",
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": 146
+                },
+                {
+                    "localized_name": "positive",
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": 115
+                },
+                {
+                    "localized_name": "negative",
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 116
+                },
+                {
+                    "localized_name": "latent_image",
+                    "name": "latent_image",
+                    "type": "LATENT",
+                    "link": 117
+                },
+                {
+                    "localized_name": "seed",
+                    "name": "seed",
+                    "type": "INT",
+                    "widget": {
+                        "name": "seed"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "steps",
+                    "name": "steps",
+                    "type": "INT",
+                    "widget": {
+                        "name": "steps"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "cfg",
+                    "name": "cfg",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "cfg"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "sampler_name",
+                    "name": "sampler_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "sampler_name"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "scheduler",
+                    "name": "scheduler",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "scheduler"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "denoise",
+                    "name": "denoise",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "denoise"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "LATENT",
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "slot_index": 0,
+                    "links": [
+                        35
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "KSampler",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                897355276271456,
+                "randomize",
+                20,
+                6,
+                "uni_pc",
+                "simple",
+                1
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 8,
+            "type": "VAEDecode",
+            "pos": [
+                -940,
+                690
+            ],
+            "size": [
+                280,
+                50
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "samples",
+                    "name": "samples",
+                    "type": "LATENT",
+                    "link": 35
+                },
+                {
+                    "localized_name": "vae",
+                    "name": "vae",
+                    "type": "VAE",
+                    "link": 143
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "IMAGE",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        144
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "VAEDecode",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 54,
+            "type": "ModelSamplingSD3",
+            "pos": [
+                -940,
+                210
+            ],
+            "size": [
+                280,
+                60
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "model",
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": 128
+                },
+                {
+                    "localized_name": "shift",
+                    "name": "shift",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "shift"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "MODEL",
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "slot_index": 0,
+                    "links": [
+                        146
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "ModelSamplingSD3",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                8
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 58,
+            "type": "LoadAudio",
+            "pos": [
+                -2270,
+                200
+            ],
+            "size": [
+                370,
+                136
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "audio",
+                    "name": "audio",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "audio"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "audioUI",
+                    "name": "audioUI",
+                    "type": "AUDIO_UI",
+                    "widget": {
+                        "name": "audioUI"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "choose file to upload",
+                    "name": "upload",
+                    "type": "AUDIOUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "AUDIO",
+                    "name": "AUDIO",
+                    "type": "AUDIO",
+                    "links": [
+                        121,
+                        145
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "LoadAudio",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                null,
+                null,
+                null
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 52,
+            "type": "LoadImage",
+            "pos": [
+                -2260,
+                410
+            ],
+            "size": [
+                360,
+                340
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "image",
+                    "name": "image",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "image"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "choose file to upload",
+                    "name": "upload",
+                    "type": "IMAGEUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "IMAGE",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        118
+                    ]
+                },
+                {
+                    "localized_name": "MASK",
+                    "name": "MASK",
+                    "type": "MASK",
+                    "slot_index": 1,
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "LoadImage",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "undefined",
+                "image"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 55,
+            "type": "WanSoundImageToVideo",
+            "pos": [
+                -1270,
+                330
+            ],
+            "size": [
+                280,
+                280
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "positive",
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": 112
+                },
+                {
+                    "localized_name": "negative",
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 113
+                },
+                {
+                    "localized_name": "vae",
+                    "name": "vae",
+                    "type": "VAE",
+                    "link": 142
+                },
+                {
+                    "localized_name": "audio_encoder_output",
+                    "name": "audio_encoder_output",
+                    "shape": 7,
+                    "type": "AUDIO_ENCODER_OUTPUT",
+                    "link": 119
+                },
+                {
+                    "localized_name": "ref_image",
+                    "name": "ref_image",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": 118
+                },
+                {
+                    "localized_name": "control_video",
+                    "name": "control_video",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": null
+                },
+                {
+                    "localized_name": "ref_motion",
+                    "name": "ref_motion",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": null
+                },
+                {
+                    "localized_name": "width",
+                    "name": "width",
+                    "type": "INT",
+                    "widget": {
+                        "name": "width"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "height",
+                    "name": "height",
+                    "type": "INT",
+                    "widget": {
+                        "name": "height"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "length",
+                    "name": "length",
+                    "type": "INT",
+                    "widget": {
+                        "name": "length"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "batch_size",
+                    "name": "batch_size",
+                    "type": "INT",
+                    "widget": {
+                        "name": "batch_size"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "positive",
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "links": [
+                        115
+                    ]
+                },
+                {
+                    "localized_name": "negative",
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "links": [
+                        116
+                    ]
+                },
+                {
+                    "localized_name": "latent",
+                    "name": "latent",
+                    "type": "LATENT",
+                    "links": [
+                        117
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "WanSoundImageToVideo",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                480,
+                832,
+                81,
+                1
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 73,
+            "type": "CLIPLoader",
+            "pos": [
+                -2740,
+                330
+            ],
+            "size": [
+                380,
+                130
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "clip_name",
+                    "name": "clip_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "clip_name"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "type",
+                    "name": "type",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "type"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "device",
+                    "name": "device",
+                    "shape": 7,
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "device"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "CLIP",
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": [
+                        147,
+                        148
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.53",
+                "Node name for S&R": "CLIPLoader"
+            },
+            "widgets_values": [
+                "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+                "wan",
+                "default"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 6,
+            "type": "CLIPTextEncode",
+            "pos": [
+                -1800,
+                210
+            ],
+            "size": [
+                422.84503173828125,
+                164.31304931640625
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "clip",
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 147
+                },
+                {
+                    "localized_name": "text",
+                    "name": "text",
+                    "type": "STRING",
+                    "widget": {
+                        "name": "text"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "CONDITIONING",
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "slot_index": 0,
+                    "links": [
+                        112
+                    ]
+                }
+            ],
+            "title": "CLIP Text Encode (Positive Prompt)",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.52",
+                "Node name for S&R": "CLIPTextEncode",
+                "ue_properties": {
+                    "widget_ue_connectable": {},
+                    "version": "7.0.1"
+                }
+            },
+            "widgets_values": [
+                "A man with a serious facial expression, looking directly into the camera and talking."
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 71,
+            "type": "MarkdownNote",
+            "pos": [
+                -3160,
+                130
+            ],
+            "size": [
+                360,
+                850
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [],
+            "title": "FoxtonAI Notes",
+            "properties": {},
+            "widgets_values": [
+                "### Description\nWan 2.2 14B GGUF Speech-to-Video Workflow.\n\n---\n\n### Resources\n▶️ [WORKFLOW TUTORIAL](https://youtu.be/ilT_MeUZBgw)\n\n🔗 [GUFF S2V MODEL DETAILS](https://huggingface.co/QuantStack/Wan2.2-S2V-14B-GGUF/tree/main)\n\n---\n\n### Download Workflow\n⬇️ [DOWNLOAD](https://www.patreon.com/posts/comfyui-wan-2-2-137853257) wan_2.2_14b_gguf_s2v.json\n\n📁 **Save in:** `ComfyUI\\user\\default\\workflows`\n\n---\n\n### Download Model\n⬇️ [DOWNLOAD](https://huggingface.co/QuantStack/Wan2.2-S2V-14B-GGUF/tree/main) Choose GGUF S2V model\n\n📁 **Save in:** `ComfyUI\\models\\unet`\n\n---\n\n### Download Audio Encoder\n📌 If the `audio_encoders` folder is not automatically created, then just manually create it.\n\n⬇️ [DOWNLOAD](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors) wav2vec2_large_english_fp16\n\n📁 **Save in:** `ComfyUI/models/audio_encoders`\n\n---\n\n### Download Text Encoder\n📌 Choose FP8 or FP16\n\n⬇️ [DOWNLOAD](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors) [FP8] umt5_xxl_fp8_e4m3fn_scaled\n\n⬇️ [DOWNLOAD](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors) [FP16] umt5_xxl_fp16\n\n📁 **Save in:** `ComfyUI\\models\\text_encoders`\n\n---\n\n### Download VAE\n📌 14B GGUF Models Use Wan 2.1 VAE\n\n⬇️ [DOWNLOAD](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors) wan_2.1_vae\n\n📁 **Save in:** `ComfyUI\\models\\vae`\n\n---\n\n### Install Custom Nodes via ComfyUI Manager\n🧩 ComfyUI-VideoHelperSuite [DETAILS](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)\n\n🧩 ComfyUI-GGUF [DETAILS](https://github.com/city96/ComfyUI-GGUF)\n\n---\n\n### 📅 August 28, 2025"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        }
+    ],
+    "links": [
+        [
+            35,
+            3,
+            0,
+            8,
+            0,
+            "LATENT"
+        ],
+        [
+            112,
+            6,
+            0,
+            55,
+            0,
+            "CONDITIONING"
+        ],
+        [
+            113,
+            7,
+            0,
+            55,
+            1,
+            "CONDITIONING"
+        ],
+        [
+            115,
+            55,
+            0,
+            3,
+            1,
+            "CONDITIONING"
+        ],
+        [
+            116,
+            55,
+            1,
+            3,
+            2,
+            "CONDITIONING"
+        ],
+        [
+            117,
+            55,
+            2,
+            3,
+            3,
+            "LATENT"
+        ],
+        [
+            118,
+            52,
+            0,
+            55,
+            4,
+            "IMAGE"
+        ],
+        [
+            119,
+            56,
+            0,
+            55,
+            3,
+            "AUDIO_ENCODER_OUTPUT"
+        ],
+        [
+            120,
+            57,
+            0,
+            56,
+            0,
+            "AUDIO_ENCODER"
+        ],
+        [
+            121,
+            58,
+            0,
+            56,
+            1,
+            "AUDIO"
+        ],
+        [
+            128,
+            61,
+            0,
+            54,
+            0,
+            "MODEL"
+        ],
+        [
+            142,
+            63,
+            0,
+            55,
+            2,
+            "VAE"
+        ],
+        [
+            143,
+            63,
+            0,
+            8,
+            1,
+            "VAE"
+        ],
+        [
+            144,
+            8,
+            0,
+            70,
+            0,
+            "IMAGE"
+        ],
+        [
+            145,
+            58,
+            0,
+            70,
+            1,
+            "AUDIO"
+        ],
+        [
+            146,
+            54,
+            0,
+            3,
+            0,
+            "MODEL"
+        ],
+        [
+            147,
+            73,
+            0,
+            6,
+            0,
+            "CLIP"
+        ],
+        [
+            148,
+            73,
+            0,
+            7,
+            0,
+            "CLIP"
+        ]
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "title": "LOAD MODELS",
+            "bounding": [
+                -2770,
+                100,
+                440,
+                660
+            ],
+            "color": "#88A",
+            "font_size": 24,
+            "flags": {}
+        },
+        {
+            "id": 2,
+            "title": "INPUT AUDIO & REF IMAGE",
+            "bounding": [
+                -2300,
+                100,
+                426.72381591796875,
+                680.4436645507812
+            ],
+            "color": "#88A",
+            "font_size": 24,
+            "flags": {}
+        },
+        {
+            "id": 4,
+            "title": "CREATE VIDEO",
+            "bounding": [
+                -1310,
+                100,
+                690,
+                680
+            ],
+            "color": "#88A",
+            "font_size": 24,
+            "flags": {}
+        },
+        {
+            "id": 5,
+            "title": "PROMPTS",
+            "bounding": [
+                -1840,
+                100,
+                500,
+                570
+            ],
+            "color": "#88A",
+            "font_size": 24,
+            "flags": {}
+        },
+        {
+            "id": 6,
+            "title": "OUTPUT VIDEO",
+            "bounding": [
+                -590,
+                100,
+                470,
+                1200
+            ],
+            "color": "#88A",
+            "font_size": 24,
+            "flags": {}
+        }
+    ],
+    "config": {},
+    "extra": {
+        "ds": {
+            "scale": 0.473624407447694,
+            "offset": [
+                3193.1906353603454,
+                21.67007845182947
+            ]
+        },
+        "frontendVersion": "1.25.11",
+        "ue_links": [],
+        "VHS_latentpreview": false,
+        "VHS_latentpreviewrate": 0,
+        "VHS_MetadataImage": true,
+        "VHS_KeepIntermediate": true
+    },
+    "version": 0.4
+}
